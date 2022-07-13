@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navContainer">
+            <a href="../index.html">
+                <img class="logo" src="../img/Dawn-FM-logo-square-black.jpeg" alt="Logo" id="logo"/>
+            </a>
+            <ul class="menuDesplegable d-none d-md-flex">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li class="active"><a href="news.html">News</a></li>
+                <li><a href="videos.html">Videos</a></li>
+            </ul>
+            <button class="btn btnMenuDesplegable d-md-none d-sm-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Dawn FM</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="menuDesplegable">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li class="active"><a href="news.html">News</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="contactTitle">Join the After Life</h2>
+        <section class="contactForm">
+          <form>
+            <div class="contactFormName">
+              <label for="name">Nombre y Apellido</label>
+              <input type="text" name="name" placeholder="Nombre y Apellido" id="name" />
+            </div>
+            <div class="contactFormEmail">
+              <label for="email">E-Mail</label>
+              <input type="email" name="email" id="email" placeholder="E-Mail" />
+            </div>
+  
+            <div class="contactFormUser">
+              <label for="userType">Usuario</label>
+              <select name="userType" id="userType">
+                <option disabled>Seleccione una opcion</option>
+                <option value="comprador">The Weeknd</option>
+                <option value="fan">Universal Music Group</option>
+              </select>
+            </div>
+            <div>
+              <textarea
+                name="comentario"
+                id="comment"
+                cols="30"
+                rows="10"
+                placeholder="Dejanos tu comentario"
+              ></textarea>
+            </div>
+  
+            <div class="contactFormBtn">
+              <button id="btnEnviar">Enviar</button>
+            </div>
+          </form>
+        </section>
+
+
+
+         <div class="Tour">
+          <h4>NEW TOUR</h4>
+
+
+         <h3>New dates will be announced soon.</h3>
+         <h3>Make sure to subscribe to our newsletter so you never miss any important information.</h3>
+
+         <h5>Stay tuned.</h5>
+
+         </div>
+
+
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/theweeknd/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i>  Instagram </a>
+        <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube</a>
+        <a href="https://shop.theweeknd.com/" target="_blank"><i class="fa-solid fa-bag-shopping"></i> Store</a>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>

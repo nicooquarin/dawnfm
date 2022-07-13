@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Weeknd</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+        <nav class="navContainer">
+            <a href="index.html">
+                <img class="logo" src="img/Dawn-FM-logo-square-black.jpeg" alt="Logo" id="logo"/>
+            </a>
+            <ul class="menuDesplegable d-none d-md-flex">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="pages/music.html">Music</a></li>
+                <li><a href="pages/news.html">News</a></li>
+                <li><a href="pages/videos.html">Videos</a></li>
+            </ul>
+            <button class="btn btnMenuDesplegable d-md-none d-sm-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Dawn FM</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="menuDesplegable">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="pages/music.html">Music</a></li>
+                        <li><a href="pages/news.html">News</a></li>
+                        <li><a href="pages/videos.html">Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div> <h2>You've been in the dark for way too long...</h2></div>
+     
+
+      <!--Carrousel de Bootstrap> -->
+      <section class="containerCarousel">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide containerCarousel"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/carousel1.jpg"
+                class="d-block w-100"
+                alt="Carrousel1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/carousel2.jpg"
+                class="d-block w-100"
+                alt="Carrousel2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/carousel3.jpg"
+                class="d-block w-100"
+                alt="Carrousel3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <h2>
+        It's time to walk into the light and accept your faith with open arms
+      </h2>
+
+      <div class="row">
+        <div class="column">
+          <img class="ImageResponsive" src="img/foto1.jpg" alt="photo 1" />
+          <img class="ImageResponsive" src="img/foto4.jpg" alt="photo 2" />
+          <img class="ImageResponsive" src="img/foto3.jpg" alt="photo 3" />
+          <img class="ImageResponsive" src="img/foto5.jpg" alt="photo 4" />
+          <img class="ImageResponsive" src="img/foto2.jpg" alt="photo 5" />
+          <img class="ImageResponsive" src="img/foto6.jpg" alt="photo 6" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://www.instagram.com/theweeknd/?hl=en" target="_blank"
+        ><i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ"
+        target="_blank"
+        ><i class="fa-brands fa-youtube"></i> Youtube</a
+      >
+      <a href="https://shop.theweeknd.com/" target="_blank"
+        ><i class="fa-solid fa-bag-shopping"></i> Store</a
+      >
+    </footer>
+
+    <!-- mundo jquery -->
+
+    <!-- jQuery 1.8 or later, 33 KB -->
+
+    <!-- última versión de jQuery-->
+    <!-- https://code.jquery.com/jquery-3.6.0.min.js -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+    <!-- librería fancyapp -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
